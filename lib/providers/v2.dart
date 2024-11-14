@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'BorderRadiusProvider.dart';
-import 'RadiusSliderSection.dart'; // імпорт віджету слайдерів
-import 'RoundedContainer.dart'; // імпорт віджету контейнера
+import 'RadiusSliderSection.dart'; 
+import 'RoundedContainer.dart'; 
 
 class V2 extends StatelessWidget {
   @override
@@ -15,12 +15,12 @@ class V2 extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              // Секція слайдерів
+          
               RoundedContainer(),
 
               const SizedBox(height: 20),
 
-              // Секція синього контейнера
+          
               RadiusSliderSection(),
             ],
           ),
